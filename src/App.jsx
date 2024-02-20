@@ -1,4 +1,5 @@
 import './App.css';
+import { HeaderLink } from './components/HeaderLink';
 import { Logo } from './components/Logo';
 import { Separator } from './components/Separator';
 
@@ -7,7 +8,11 @@ function App() {
     <div className="App">
       <Separator/>
       <Logo />
-      <Separator/>  
+      <Separator/> 
+      <HeaderLink name="Work"/> 
+      <HeaderLink name="Team"/>
+      <HeaderLink name="Contact Us"/>
+      <Separator />
     </div>
   );
 }
