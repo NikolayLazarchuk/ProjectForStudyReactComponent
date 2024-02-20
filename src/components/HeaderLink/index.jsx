@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 
-export const HeaderLink = (props) => {
+export const HeaderLink = ({name}) => {
   return (
 <StyleAHeaderLink>
-  <StylePHeaderLink href={'https://example.com'}>{props.name}</StylePHeaderLink>
+  <StylePHeaderLink href={'https://example.com'}>{name}</StylePHeaderLink>
 </StyleAHeaderLink>
   )
 }
